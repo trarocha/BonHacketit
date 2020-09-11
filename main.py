@@ -65,10 +65,11 @@ while (sort1Valid == False):
         sort1 = input("Error: Please select 'High' or 'Low': ")
 
 # Filter results
-q_df = df.ServingSize.quantile([.25, .75])
+df_sub1 = df[crit1]
+q_df = df_sub1.quantile([.25, .75])
 if (sort1 == "High"):
-    df = df[df[sort1] >= q_df[0.75]]
-    print(df.head())
+    df = df.query("{0} >= {1}".format(crit1, q_df[0.75]))
+    print(df)
 elif (sort1 == "Low"):
-    df = df[df.ServingSize <= q_df[0.75]]
-    print(df.head())
+    df = df.query("{0} <= {1}".format(crit1, q_df[0.25]))
+    print(df)
