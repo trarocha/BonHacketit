@@ -39,6 +39,21 @@ while (typValid == False):
     else:
         typ = input("Error: Please select a valid type: ")
         
+# Option to set calorie limit
+cal = input("Would you like to set a calorie limit? Type 'Yes' or 'No': ")
+calValid = False
+while (calValid == False):
+    if (cal == "Yes"):
+        calMax = input("Enter a value between {0} and {1}: ".format(df.Calories.min(), df.Calories.max()))
+        if calMax.isdigit():
+            df = df[df.Calories <= int(calMax)]
+            calValid = True
+        else:
+            calMax = input("Error: Enter a value between {0} and {1}: ".format(df.Calories.min(), df.Calories.max()))
+    elif (cal == "No"):
+        calValid = True
+    else:
+        cal = input("Error: Please select Yes or No")
 
 # Select the first criteria
 print("Please select your criteria to filter by: ")
