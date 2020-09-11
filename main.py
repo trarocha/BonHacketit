@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Choose restaurant
-res = input("Welcome!\nSelect one of the following restaurants:\n\tPanda Express\n")
+res = input("Welcome!\nSelect one of the following restaurants:\n\tPanda Express\n\tTaco Bell\n")
 resValid = False
 # print(res)
 
@@ -13,8 +13,17 @@ while (resValid == False):
     if (res == "Panda Express"):
         names = ['Food', 'Type', 'ServingSize', 'Calories', 'CaloriesFromFat', 'TotalFat', 'SaturatedFat', 
             'TransFat', 'Cholesterol', 'Sodium', 'TotalCarb', 'DietaryFiber', 'Sugars', 'Protein']
+        nameStart = 2
+        nameEnd = 14
         df = pd.read_csv("PandaExpress.csv", sep=',', header=0, names=names)
         # print(df.head())
+        resValid = True
+    elif (res == "Taco Bell"):
+        names = ['Food', 'Type', 'Calories', 'CaloriesFromFat', 'TotalFat', 'SaturatedFat', 'TransFat', 
+            'Cholesterol', 'Sodium', 'TotalCarbohydrates', 'DietaryFiber', 'Sugars', 'Protein']
+        nameStart = 2
+        nameEnd = 13
+        df = pd.read_csv("TacoBell.csv", sep=',', header=0, names=names)
         resValid = True
     else:
         res = input("Error: Please select a valid restaurant: ")
@@ -57,13 +66,7 @@ while (calValid == False):
 
 # Select the first criteria
 print("Please select your criteria to filter by: ")
-i = 2
-while i <= 11:
-    print("\t")
-    print(names[i], end='\t')
-    print(names[i + 1], end='\t')
-    print(names[i + 2])
-    i += 3
+print(names[nameStart:nameEnd])
 crit1 = input()
 # print(crit1)
 crit1Valid = False
@@ -94,13 +97,7 @@ elif (sort1 == "Low"):
 
 # Select the second criteria
 print("Please select your criteria to filter by: ")
-i = 2
-while i <= 11:
-    print("\t")
-    print(names[i], end='\t')
-    print(names[i + 1], end='\t')
-    print(names[i + 2])
-    i += 3
+print(names[nameStart:nameEnd])
 crit2 = input()
 # print(crit1)
 crit2Valid = False

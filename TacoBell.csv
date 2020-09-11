@@ -1,0 +1,136 @@
+﻿Food,Type,Calories,CaloriesFromFat,TotalFat,SaturatedFat,TransFat,Cholesterol,Sodium,TotalCarbohydrates,DietaryFiber,Sugars,Protein
+Breakfast Crunchwrap - Bacon,Breakfast,670,370,41,12,0,140,1270,50,4,3,21
+Breakfast Crunchwrap - Sausage,Breakfast,720,430,47,15,0,145,1210,51,4,3,21
+Breakfast Crunchwrap - Steak,Breakfast,660,350,38,12,0,145,1300,51,4,3,24
+Cheesy Toasted Breakfast Burrito - Bacon,Breakfast,350,150,16,4.5,0,115,870,36,2,3,13
+Cheesy Toasted Breakfast Burrito - Fiesta Potato,Breakfast,330,130,14,3.5,0,100,750,42,3,3,10
+Cheesy Toasted Breakfast Burrito - Sausage,Breakfast,340,160,17,5,0,110,730,36,2,3,11
+Cinnabon Delights (2 pack),Breakfast,160,80,9,2,0,5,80,17,0,10,2
+Cinnabon Delights (12 pack),Breakfast,930,480,53,13,2,40,480,104,3,59,9
+Grande Toasted Breakfast Burrito - Bacon,Breakfast,560,270,30,10,0,230,1280,49,4,3,24
+Grande Toasted Breakfast Burrito - Sausage,Breakfast,560,280,31,10,0,230,1150,48,4,2,22
+Grande Toasted Breakfast Burrito - Steak,Breakfast,560,250,28,9,0,240,1310,49,4,2,27
+Hash Brown,Breakfast,160,100,12,1,0,0,270,13,2,0,1
+Hash Brown Toasted Breakfast Burrito - Bacon,Breakfast,570,300,33,10,0,135,1270,49,4,2,21
+Hash Brown Toasted Breakfast Burrito - Sausage,Breakfast,570,300,34,10,0,130,1130,49,4,2,18
+Hash Brown Toasted Breakfast Burrito - Steak,Breakfast,570,270,30,9,0,140,1290,50,4,2,24
+Iced Regular Coffee,Beverage,10,0,0,0,0,0,0,0,0,0,2
+Mtn Dew Kickstart Orange Citrus (16 oz),Beverage,70,0,0,0,0,0,75,18,0,18,0
+Rainforest Coffee,Beverage,10,0,0,0,0,0,0,0,0,0,2
+Rainforest Coffee with Nestle Coffee-Mate Sweetened Original Creamer,Beverage,30,10,1.5,1,0,0,0,3,0,3,2
+Tropican Orange Juice,Beverage,140,0,0,0,0,0,20,33,0,28,2
+Bean Burrito,Burrito,350,80,9,3.5,0,5,1000,54,11,3,13
+Beef Burrito,Burrito,430,170,19,5,0,20,970,51,4,3,12
+Beefy 5-Layer Burrito,Burrito,490,160,18,7,0,30,1250,63,9,5,18
+Black Bean Quesarito,Burrito,630,270,29,10,0,35,1260,73,7,5,19
+Burrito Supreme - Beef,Burrito,390,130,14,6,0,25,1110,51,9,4,16
+Burrito Supreme - Chicken,Burrito,370,100,11,4.5,0,35,1110,49,8,4,19
+Burrito Supreme - Steak,Burrito,370,110,12,5,0,30,1090,49,7,4,18
+Cheesy Bean & Rice Burrito,Burrito,420,140,16,4,0,0,880,56,7,3,10
+Chili Cheese Burrito,Burrito,370,150,17,8,0,35,970,40,4,2,16
+Quesarito - Beef,Burrito,650,300,33,12,0.5,55,1390,67,6,5,22
+Quesarito - Chicken,Burrito,640,290,32,11,0,70,1340,66,4,4,23
+Quesarito - Steak,Burrito,630,270,30,11,0,60,1370,66,4,4,24
+Shredded Chicken Burrito,Burrito,420,180,20,6,0,45,900,47,3,2,15
+Mtn Dew Baja Blast Freeze (16 oz),Beverage,150,0,0,0,0,0,45,41,0,41,0
+Mtn Dew Baja Blast Freeze (20 oz),Beverage,190,0,0,0,0,0,55,51,0,51,0
+Pineapple Freeze (16 oz),Beverage,160,0,0,0,0,0,50,41,0,41,0
+Pineapple Freeze (20 oz),Beverage,190,0,0,0,0,0,65,52,0,52,0
+Pineapple Whip Freeze (16 oz),Beverage,210,10,1,0.5,0,0,55,52,0,49,0
+Pineapple Whip Freeze (20 oz),Beverage,250,10,1,0.5,0,0,70,62,0,60,0
+Wild Strawberry Freeze (16 oz),Beverage,150,0,0,0,0,0,40,41,0,41,0
+Wild Strawberry Freeze (20 oz),Beverage,190,0,0,0,0,0,55,51,0,51,0
+Fresco Bean Burrito,Low-Cal,330,70,7,2.5,0,0,950,54,11,4,11
+Fresco Burrito Supreme - Chicken,Low-Cal,320,70,7,2.5,0,25,1040,46,7,3,17
+Fresco Burrito Supreme - Steak,Low-Cal,330,70,8,3,0,20,1020,47,7,3,16
+Fresco Crunchy Taco - Beef,Low-Cal,140,70,7,2.5,0,15,270,13,3,1,6
+Fresco Soft Taco - Beef,Low-Cal,160,60,7,2.5,0,15,450,18,3,2,8
+Fresco Soft Taco - Shredded Chicken,Low-Cal,150,50,6,2,0,30,400,16,2,1,9
+Fresco Soft Taco - Steak,Low-Cal,140,35,4,1.5,0,20,430,16,1,1,10
+Power Menu Bowl - Chicken,High Protein,470,170,19,6,0,70,1200,50,7,2,26
+Power Menu Bowl - Steak,High Protein,480,180,20,7,0,60,1150,51,7,2,25
+Power Menu Bowl - Veggie,High Protein,430,160,17,5,0,20,810,57,10,2,12
+Black Beans & Rice,Side,170,30,3.5,0,0,0,320,31,4,0,4
+Black Beans & Rice,Side,50,10,1,0,0,0,135,8,3,0,2
+Chips and Nacho Cheese Sauce,Side,220,120,13,1.5,0,0,250,24,2,2,2
+Black Bean Crunchwrap Supreme,Specialty,510,160,17,4.5,0,5,1080,77,8,6,13
+Chalupa Supreme - Beef,Specialty,350,170,18,5,0,25,560,33,4,3,13
+Chalupa Supreme - Chicken,Specialty,330,140,15,3.5,0,35,560,31,2,3,16
+Chalupa Supreme - Steak,Specialty,330,140,16,4,0,30,530,32,2,3,15
+Cheesy Gordita Crunch,Specialty,500,250,28,10,0.5,55,850,41,5,4,20
+Cheesy Gordita Crunch Supreme,Specialty,520,270,29,11,0.5,55,870,43,5,5,21
+Cheesy Roll Up,Specialty,180,80,9,5,0,20,430,15,2,0,9
+Crunchwrap Supreme,Specialty,530,190,21,6,0,25,1200,71,6,6,16
+Mexican Pizza,Specialty,530,260,29,8,0.5,40,960,48,9,3,19
+Nachos BellGrande,Specialty,740,340,38,7,0,25,1050,82,15,5,16
+Nachos BellGrande - Chicken,Specialty,720,310,35,6,0,35,1050,81,14,5,20
+Nachos BellGrande - Steak,Specialty,720,320,36,6,0,30,1030,81,14,5,19
+Quesadilla - Cheese,Specialty,470,230,25,12,0.5,50,990,37,4,2,19
+Quesadilla - Chicken,Specialty,510,240,26,12,0.5,75,1250,38,4,2,27
+Quesadilla - Steak,Specialty,520,240,27,12,0.5,70,1230,38,4,2,27
+Shredded Chicken Quesadilla Melt,Specialty,310,120,13,4.5,0,40,750,35,3,2,13
+Cinnamon Twists,Dessert,170,50,6,0,0,0,210,27,0,13,1
+Lowat Milk,Beverage,80,20,2,1.5,0,10,100,10,0,9,7
+Water,Beverage,0,0,0,0,0,0,0,0,0,0,0
+Crunchy Taco,Taco,170,80,9,3.5,0,25,310,13,3,0,8
+Crunchy Taco Supreme,Taco,190,100,11,4.5,0,25,340,15,3,2,8
+Nacho Cheese Doritos Locos Taco,Taco,170,80,9,3.5,0,25,360,13,3,0,8
+Nacho Cheese Doritos Locos Taco Supreme,Taco,190,100,11,4.5,0,30,380,15,3,2,8
+Soft Taco - Beef,Taco,180,80,9,4,0,25,500,17,3,1,9
+Soft Taco - Chicken,Taco,170,70,8,3,0,35,450,16,2,1,10
+Soft Taco Supreme - Beef,Taco,210,90,10,5,0,25,520,20,3,2,10
+7-Up (16 oz),Beverage,190,0,0,0,0,0,70,46,0,46,0
+Aquafina Sparkling Berry Breeze (16 oz),Beverage,0,0,0,0,0,0,85,0,0,0,0
+Brisk Mango Iced Tea (16 oz),Beverage,100,0,0,0,0,0,50,26,0,26,0
+Brisk Unsweetened No Lemon Iced Tea (16 oz),Beverage,0,0,0,0,0,0,60,0,0,0,0
+Diet Dr Pepper (16 oz),Beverage,0,0,0,0,0,0,95,0,0,0,0
+Diet Mtn Dew (16 oz),Beverage,5,0,0,0,0,0,75,1,0,1,0
+Diet Pepsi (16 oz),Beverage,0,0,0,0,0,0,75,0,0,0,0
+Dr Pepper (16 oz),Beverage,190,0,0,0,0,0,60,52,0,51,0
+G2 - Fruit Punch (16 oz),Beverage,30,0,0,0,0,0,140,7,0,6,0
+Mist Twst (16 oz),Beverage,200,0,0,0,0,0,45,54,0,54,0
+Mtn Dew (16 oz),Beverage,220,0,0,0,0,0,70,59,0,58,0
+Mtn Dew Baja Blast (16 oz),Beverage,220,0,0,0,0,0,65,59,0,59,0
+Mtn Dew Baja Blast Zero Sugar (16 oz),Beverage,5,0,0,0,0,0,70,0,0,0,0
+Mug Root Beer (16 oz),Beverage,190,0,0,0,0,0,60,52,0,52,0
+Pepsi (16 oz),Beverage,200,0,0,0,0,0,45,55,0,55,0
+Pepsi Wild Cherry (16 oz),Beverage,210,0,0,0,0,0,40,56,0,56,0
+Pepsi Zero Sugar (16 oz),Beverage,0,0,0,0,0,0,85,0,0,0,0
+Tropicana Pink Lemonade (16 oz),Beverage,210,0,0,0,0,0,210,53,0,53,0
+7-Up (20 oz),Beverage,240,0,0,0,0,0,85,58,0,58,0
+Aquafina Sparkling Berry Breeze (20 oz),Beverage,0,0,0,0,0,0,105,0,0,0,0
+Brisk Mango Iced Tea (20 oz),Beverage,120,0,0,0,0,0,60,32,0,32,0
+Brisk Unsweetened No Lemon Iced Tea (20 oz),Beverage,0,0,0,0,0,0,75,0,0,0,0
+Diet Dr Pepper (20 oz),Beverage,0,0,0,0,0,0,120,0,0,0,0
+Diet Mtn Dew (20 oz),Beverage,10,0,0,0,0,0,90,1,0,1,0
+Diet Pepsi (20 oz),Beverage,0,0,0,0,0,0,95,0,0,0,0
+Dr Pepper (20 oz),Beverage,240,0,0,0,0,0,75,65,0,64,0
+G2 - Fruit Punch (20 oz),Beverage,35,0,0,0,0,0,180,9,0,8,0
+Mist Twst (20 oz),Beverage,260,0,0,0,0,0,55,68,0,68,0
+Mtn Dew (20 oz),Beverage,270,0,0,0,0,0,85,73,0,73,0
+Mtn Dew Baja Blast (20 oz),Beverage,280,0,0,0,0,0,80,74,0,73,0
+Mtn Dew Baja Blast Zero Sugar (20 oz),Beverage,10,0,0,0,0,0,85,0,0,0,0
+Mtn Dew Kickstart Orange Citrus (20 oz),Beverage,90,0,0,0,0,0,90,23,0,22,0
+Mug Root Beer (20 oz),Beverage,240,0,0,0,0,0,75,65,0,65,0
+Pepsi (20 oz),Beverage,250,0,0,0,0,0,55,69,0,69,0
+Pepsi Wild Cherry (20 oz),Beverage,260,0,0,0,0,0,50,70,0,70,0
+Pepsi Zero Sugar (20 oz),Beverage,0,0,0,0,0,0,105,0,0,0,0
+Tropicana Pink Lemonade (20 oz),Beverage,260,0,0,0,0,0,260,67,0,67,0
+7-Up (30 oz),Beverage,350,0,0,0,0,0,125,87,0,87,0
+Aquafina Sparkling Berry Breeze (30 oz),Beverage,0,0,0,0,0,0,160,0,0,0,0
+Brisk Mango Iced Tea (30 oz),Beverage,180,0,0,0,0,0,90,48,0,48,0
+Brisk Unsweetened No Lemon Iced Tea (30 oz),Beverage,0,0,0,0,0,0,115,0,0,0,0
+Diet Dr Pepper (30 oz),Beverage,0,0,0,0,0,0,180,1,0,0,0
+Diet Mtn Dew (30 oz),Beverage,10,0,0,0,0,0,140,1,0,1,0
+Diet Pepsi (30 oz),Beverage,0,0,0,0,0,0,140,0,0,0,0
+Dr Pepper (30 oz),Beverage,360,0,0,0,0,0,110,98,0,96,0
+G2 - Fruit Punch (30 oz),Beverage,50,0,0,0,0,0,270,13,0,12,0
+Mist Twst (30 oz),Beverage,380,0,0,0,0,0,80,101,0,101,0
+Mtn Dew Baja Blast (30 oz),Beverage,420,0,0,0,0,0,120,110,0,110,0
+Mtn Dew Baja Blast Zero Sugar (30 oz),Beverage,15,0,0,0,0,0,125,0,0,0,0
+Mtn Dew Kickstart Orange Citrus (30 oz),Beverage,130,0,0,0,0,0,140,34,0,33,0
+Mug Root Beer (30 oz),Beverage,360,0,0,0,0,0,110,98,0,98,0
+Pepsi (30 oz),Beverage,380,0,0,0,0,0,80,104,0,103,0
+Pepsi Wild Cherry (30 oz),Beverage,390,0,0,0,0,0,80,105,0,105,0
+Pepsi Zero Sugar (30 oz),Beverage,0,0,0,0,0,0,160,0,0,0,0
+Tropicana Pink Lemonade (30 oz),Beverage,390,0,0,0,0,0,390,100,0,100,0
