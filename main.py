@@ -20,10 +20,22 @@ while (resValid == False):
         res = input("Error: Please select a valid restaurant: ")
 
 # Select type
-print("Select one of the following food types, or type 'all' to select full menu:\n")
-print(df.Type.unique)
+print("Select one of the following food types, or type 'All' to select full menu:")
+print("\t", end='')
+print(df.Type.unique())
 typ = input()
 typValid = False
+while (typValid == False):
+    if (typ in df.Type.unique()):
+        df = df[df.Type == typ]
+        # print(df.head())
+        typValid = True
+    elif (typ == "All"):
+        typValid = True
+        # print(df.head())
+    else:
+        typ = input("Error: Please select a valid type: ")
+        
 
 # Select the first criteria
 print("Please select your first criteria: ")
@@ -36,3 +48,11 @@ while i <= 11:
     i += 3
 crit1 = input()
 # print(crit1)
+crit1Valid = False
+while (crit1Valid == False):
+    if (crit1 in names[2:14]):
+        print("True\n")
+        crit1Valid = True
+    else:
+        crit1 = input("Error: Please select a valid criteria: ")
+        crit1Valid = True
