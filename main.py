@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Choose restaurant
-res = input("Welcome!\nSelect one of the following restaurants:\n\tPanda Express\n\tTaco Bell\n")
+res = input("\nWelcome!\n\nSelect one of the following restaurants:\n\tPanda Express\n\tTaco Bell\n\n")
 resValid = False
 # print(res)
 
