@@ -11,9 +11,9 @@ resValid = False
 # Open the restuarant file, if available
 while (resValid == False):
     if (res == "Panda Express"):
-        names = ['Food', 'Type', 'Serving Size (oz)', 'Calories', 'Calories From Fat (g)', 'Total Fat (g)', 'Saturated Fat (g)', 
-            'Trans Fat (g)', 'Cholesterol (mg)', 'Sodium(mg)', 'Total Carb (g)', 'Dietary Fiber (g)', 'Sugars (g)', 'Protein (g)']
-        df = pd.read_csv("PandaExpress.csv", header=0, names=names)
+        names = ['Food', 'Type', 'ServingSize', 'Calories', 'CaloriesFromFat', 'TotalFat', 'SaturatedFat', 
+            'TransFat', 'Cholesterol', 'Sodium', 'TotalCarb', 'DietaryFiber', 'Sugars', 'Protein']
+        df = pd.read_csv("PandaExpress.csv", sep=',', header=0, names=names)
         # print(df.head())
         resValid = True
     else:
@@ -38,7 +38,7 @@ while (typValid == False):
         
 
 # Select the first criteria
-print("Please select your first criteria: ")
+print("Please select your criteria to filter by: ")
 i = 2
 while i <= 11:
     print("\t")
@@ -51,8 +51,24 @@ crit1 = input()
 crit1Valid = False
 while (crit1Valid == False):
     if (crit1 in names[2:14]):
-        print("True\n")
+        # print("True\n")
         crit1Valid = True
     else:
         crit1 = input("Error: Please select a valid criteria: ")
-        crit1Valid = True
+sort1 = input("Would you like high or low {0}? Type 'High' or 'Low' to select: ".format(crit1))
+sort1Valid = False
+while (sort1Valid == False):
+    if (sort1 == "High" or sort1 == "Low"):
+        # print("True\n")
+        sort1Valid = True
+    else:
+        sort1 = input("Error: Please select 'High' or 'Low': ")
+
+# Filter results
+q_df = df.ServingSize.quantile([.25, .75])
+if (sort1 == "High"):
+    df = df[df[sort1] >= q_df[0.75]]
+    print(df.head())
+elif (sort1 == "Low"):
+    df = df[df.ServingSize <= q_df[0.75]]
+    print(df.head())
