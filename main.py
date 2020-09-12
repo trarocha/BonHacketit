@@ -2,6 +2,7 @@
 # Tracy Rocha
 
 import pandas as pd
+from functions import *
 
 # Choose restaurant
 res = input("\nWelcome!\n\nSelect one of the following restaurants:\n\tPanda Express\n\tTaco Bell\n\tMcDonalds\n")
@@ -10,30 +11,15 @@ resValid = False
 
 # Open the restuarant file, if available
 while (resValid == False):
-    if (res == "Panda Express"):
-        names = ['Food', 'Type', 'Serving Size', 'Calories', 'Calories From Fat', 'Total Fat', 'Saturated Fat', 
-            'Trans Fat', 'Cholesterol', 'Sodium', 'Total Carb', 'Dietary Fiber', 'Sugars', 'Protein']
+    df = openFile(res)
+    if (df.shape != (0, 0)):
+        names = list(df)
+        names = getNames(names)
         nameStart = 2
-        nameEnd = 14
-        df = pd.read_csv("PandaExpress.csv", sep=',', header=0)
-        # print(df.head())
-        resValid = True
-    elif (res == "Taco Bell"):
-        names = ['Food', 'Type', 'Calories', 'Calories From Fat', 'Total Fat', 'Saturated Fat', 'Trans Fat', 
-            'Cholesterol', 'Sodium', 'Total Carbohydrates', 'Dietary Fiber', 'Sugars', 'Protein']
-        nameStart = 2
-        nameEnd = 13
-        df = pd.read_csv("TacoBell.csv", sep=',', header=0)
-        resValid = True
-    elif (res == "McDonalds"):
-        names = ['Type', 'Food', 'Serving Size', 'Calories', 'Calories From Fat', 'Total Fat', 'Saturated Fat', 'Trans Fat', 'Cholesterol',
-            'Sodium', 'Carbohydrates', 'Dietary Fiber', 'Sugars', 'Protein', 'Vitamin A', 'Vitamin C', 'Calcium', 'Iron']
-        nameStart = 2
-        nameEnd = 18
-        df = pd.read_csv("McDonalds.csv", sep=',', header=0)
+        nameEnd = len(names)
         resValid = True
     else:
-        res = input("Error: Please select a valid restaurant: ")
+        res = input("Error: Please select a valid restaurant\n")
 
 # Select type
 print("\nSelect one of the following food types, type 'Food' to exclude beverages, or select 'All' to include full menu:")
