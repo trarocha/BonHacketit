@@ -6,7 +6,7 @@ from functions import *
 
 # Welcome message
 # User inputs restaurant
-print("\nWelcome!\n\nThis program will filter a menu of your choice based off of two nutritional criteria that you select.")
+print("\nWelcome to Narrow It Down!\n\nThis program will filter a menu of your choice based off of two nutritional criteria that you select.")
 print("Please note that all your answers are case-sensitive.")
 print("\nIf you are using your own dataset, type the name (without the .csv extension).")
 res = input("Otherwise, select one of the following restaurants:\n\tPanda Express\n\tTaco Bell\n\tMcDonalds\n")
