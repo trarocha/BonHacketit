@@ -1,5 +1,6 @@
-# BonHacketit
-Tracy Rocha
+# Narrow It Down
+Tracy Rocha <br>
+Bon Hacketit 2020
 
 # Outline: 
 
@@ -24,6 +25,6 @@ All other columns should have only numeric values. <br>
 Column names should not contain spaces. <br>
 In order to filter out drinks, drinks should be in a column titled "Beverage." <br>
 
-# Requirements to Run
+# Requirements to Run:
 main.py, functions.py, and all csv files should be in the same directory. <br>
 Ability to compile and run Python programs containing pandas functions.
