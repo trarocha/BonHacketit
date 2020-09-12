@@ -1,11 +1,12 @@
 # BonHacketit
 Tracy Rocha
 
-Outline:
+# Outline: 
 
 Select restaurant
-Select first criteria
-Select second criteria
+Select food type
 Set calorie max
+Select first criteria
+Output preliminary results
+Select second criteria
 Output results
-Option to try again

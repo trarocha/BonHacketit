@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Choose restaurant
-res = input("\nWelcome!\n\nSelect one of the following restaurants:\n\tPanda Express\n\tTaco Bell\n")
+res = input("\nWelcome!\n\nSelect one of the following restaurants:\n\tPanda Express\n\tTaco Bell\n\tMcDonalds\n")
 resValid = False
 # print(res)
 
@@ -25,11 +25,18 @@ while (resValid == False):
         nameEnd = 13
         df = pd.read_csv("TacoBell.csv", sep=',', header=0)
         resValid = True
+    elif (res == "McDonalds"):
+        names = ['Type', 'Food', 'Serving Size', 'Calories', 'Calories From Fat', 'Total Fat', 'Saturated Fat', 'Trans Fat', 'Cholesterol',
+            'Sodium', 'Carbohydrates', 'Dietary Fiber', 'Sugars', 'Protein', 'Vitamin A', 'Vitamin C', 'Calcium', 'Iron']
+        nameStart = 2
+        nameEnd = 18
+        df = pd.read_csv("McDonalds.csv", sep=',', header=0)
+        resValid = True
     else:
         res = input("Error: Please select a valid restaurant: ")
 
 # Select type
-print("\nSelect one of the following food types, type 'Food' to exclude beverages, or type 'All' to select full menu:")
+print("\nSelect one of the following food types, type 'Food' to exclude beverages, or select 'All' to include full menu:")
 types = df.Type.unique()
 for i, str in enumerate(types):
     print("\t{0}".format(str))
