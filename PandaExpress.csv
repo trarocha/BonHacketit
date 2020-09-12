@@ -1,4 +1,4 @@
-﻿Food,Type,Serving Size (oz),Calories,Calories From Fat (G),Total Fat (G),Saturated Fat (G),Trans Fat (G),Cholesterol (MG),Sodium (MG),Total Carb (G),Dietary Fiber (G),Sugars (G),Protein (G)
+﻿Food,Type,ServingSize,Calories,CaloriesFromFat,TotalFat,SaturatedFat,TransFat,Cholesterol,Sodium,TotalCarb,DietaryFiber,Sugars,Protein
 Chow Mein,Side,9.4,510,180,20,3.5,0,0,860,80,6,9,13
 Chow Mein - Kid's Meal,Side,5.2,280,110,12,2,0,0,540,36,2,5,7
 Fried Rice,Side,9.3,520,140,16,3,0,120,850,85,1,3,11
@@ -65,7 +65,7 @@ Cream Cheese Rangoon,Appetizer,2.4,190,70,8,5,0,35,180,24,2,1,5
 Vegetable Spring Roll,Appetizer,3.4,190,80,8,1.5,0,0,520,27,2,3,3
 Hot & Sour Soup - Cup,Soup,12.2,120,40,5,0.5,0,65,880,14,1,4,7
 Hot & Sour Soup - Bowl,Soup,17.4,170,60,6,1,0,90,1260,20,1,6,10
-Fortune Cooki,Dessert,0.18,20,0,0,0,0,0,0,5,0,2,0
+Fortune Cookie,Dessert,0.18,20,0,0,0,0,0,0,5,0,2,0
 Chocolate Chunk Cookie,Dessert,1.13,160,60,7,3,0,5,125,25,1,14,2
 Barq's Root Beer - Large,Beverage,42,560,0,0,0,0,0,190,153,0,152,0
 Barq's Root Beer - Small,Beverage,22,290,0,0,0,0,0,95,80,0,80,0
