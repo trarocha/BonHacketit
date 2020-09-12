@@ -31,9 +31,8 @@ tests += 1
 names = list(df)
 names = getNames(names)
 # print(names)
-if (names[0] == " Food") & (names[5] == " Total Fat"):
+if (names[0] == "Food") & (names[5] == "Total Fat"):
     print("\tNames successfully assigned")
-    print(len(names))
     passed += 1
 else:
     print("\tFailed to assign names")
