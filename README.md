@@ -26,5 +26,5 @@ Column names should not contain spaces. <br>
 In order to filter out drinks, drinks should be in a column titled "Beverage." <br>
 
 # Requirements to Run:
-main.py, functions.py, and all csv files should be in the same directory. <br>
+main.py, functions.py, and all CSV files should be in the same directory. <br>
 Ability to compile and run Python programs containing pandas functions.

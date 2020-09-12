@@ -18,7 +18,7 @@ def openFile(res):
     try: 
         df = pd.read_csv(filename, sep=',', header=0)   # Open file
     except FileNotFoundError:
-        return 0
+        return (0, 0)
     return df
 
 # Input: list

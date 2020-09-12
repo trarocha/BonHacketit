@@ -18,13 +18,14 @@ resValid = False
 # Get list with column names
 while (resValid == False):
     df = openFile(res)
-    if (df.shape != (0, 0)):
-        names = list(df)        # Get names from dataframe
-        names = getNames(names) # Format names
-        nameStart = 2           # The first two columnns are assumed to be Food and Type
-        nameEnd = len(names)    # Get total number of columns
-        resValid = True         # Confirm that the restaurant is valid
-    else:
+    try:
+        if (df.shape != (0, 0)):
+            names = list(df)        # Get names from dataframe
+            names = getNames(names) # Format names
+            nameStart = 2           # The first two columnns are assumed to be Food and Type
+            nameEnd = len(names)    # Get total number of columns
+            resValid = True         # Confirm that the restaurant is valid
+    except AttributeError:
         res = input("Error: Please select a valid restaurant\n")
 
 # Print a list of available food types
@@ -36,6 +37,7 @@ types = df.Type.unique()
 for i, str in enumerate(types):
     print("\t{0}".format(str))
 typ = input()
+typ = typ.strip()
 typValid = False
 while (typValid == False):
     if (typ in df.Type.unique()):
@@ -54,6 +56,7 @@ while (typValid == False):
 #                        filter dataframe to include all foods with calorie count less than or equal to specified value
 # If user selects "No":  do not change dataframe
 cal = input("\nWould you like to set a calorie limit?\n\tYes\n\tNo\n")
+cal = cal.replace(" ", "")
 calValid = False
 while (calValid == False):
     if (cal == "Yes"):
@@ -76,6 +79,7 @@ nameSubset = names[nameStart:nameEnd]
 for i, str in enumerate(nameSubset):
     print("\t{0}".format(str))
 crit1 = input()
+crit1 = crit1.strip()
 crit1Valid = False
 while (crit1Valid == False):
     if (crit1 in names[nameStart:nameEnd]):
@@ -86,6 +90,7 @@ while (crit1Valid == False):
 
 # Choose whether to filter by high or low amount
 sort1 = input("\nWould you like high or low {0}?\n\tHigh\n\tLow\n".format(crit1))
+sort1 = sort1.replace(" ", "")
 sort1Valid = False
 while (sort1Valid == False):
     if (sort1 == "High" or sort1 == "Low"):
@@ -118,6 +123,7 @@ print("\nSelect your second filter: ")
 for i, str in enumerate(nameSubset):
     print("\t{0}".format(str))
 crit2 = input()
+crit2 = crit2.strip()
 crit2Valid = False
 while (crit2Valid == False):
     if (crit2 in names[nameStart:nameEnd]):
@@ -127,6 +133,7 @@ while (crit2Valid == False):
 
 # Choose whether to filter by high or low amount
 sort2 = input("\nWould you like high or low {0}?\n\tHigh\n\tLow\n".format(crit2))
+sort2 = sort2.replace(" ", "")
 sort2Valid = False
 while (sort2Valid == False):
     if (sort2 == "High" or sort2 == "Low"):
