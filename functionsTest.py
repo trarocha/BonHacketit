@@ -1,8 +1,9 @@
 # Tracy Rocha
-# Bon Hacketit
+# Bon Hacketit 2020
+# Narrow It Down
 # Test Harness for functions.py
 
-from functions import *
+from functions import openFile, getNames
 
 # Initiate counter
 passed = 0

@@ -3,24 +3,27 @@ Tracy Rocha
 
 # Outline: 
 
-Select restaurant
-Select food type
-Set calorie max
-Select first criteria
-Output preliminary results
-Select second criteria
-Output results
+Select restaurant <br>
+Select food type <br>
+Set calorie max <br>
+Select first criteria <br>
+Output preliminary results <br>
+Select second criteria <br>
+Output results <br>
 
 # Data Sources:
-Panda Express: https://www.pandaexpress.com/nutritioninformation
-Taco Bell: https://www.tacobell.com/nutrition/info
-McDonalds: https://www.kaggle.com/mcdonalds/nutrition-facts
+Panda Express: https://www.pandaexpress.com/nutritioninformation <br>
+Taco Bell: https://www.tacobell.com/nutrition/info <br>
+McDonalds: https://www.kaggle.com/mcdonalds/nutrition-facts <br>
 
-# Requirements for csv Files:
-Names should be in camelcase.
-    Ex: PandaExpress.csv, TacoBell.csv
-Files should be located in the same folder program is being run from.
-First two columns should be "Food" and "Type;" order does not matter between the two.
-All other columns should have only numeric values.
-Column names should not contain spaces.
-In order to filter out drinks, drinks should be in a column titled "Beverage."
+# Requirements for CSV Files:
+Names should be in camelcase. Ex: PandaExpress.csv, TacoBell.csv <br>
+Files should be located in the same folder program is being run from. <br>
+First two columns should be "Food" and "Type;" order does not matter between the two. <br>
+All other columns should have only numeric values. <br>
+Column names should not contain spaces. <br>
+In order to filter out drinks, drinks should be in a column titled "Beverage." <br>
+
+# Requirements to Run
+main.py, functions.py, and all csv files should be in the same directory. <br>
+Ability to compile and run Python programs containing pandas functions.

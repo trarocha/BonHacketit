@@ -1,5 +1,8 @@
 # Tracy Rocha
-# Bon Hacketit
+# Bon Hacketit 2020
+# Narrow It Down
+# Contains functions for opening and processing CSV files
+
 import pandas as pd
 import re
 
@@ -7,7 +10,7 @@ import re
 # Output: dataframe
 # Takes in a string and returns a csv file of the same name.
 # Requirements: Existence of csv file with the name indicated by the string.
-#               csv file should be in camelcase (i.e. PandaExpress)
+#               CSV file should be in camelcase (i.e. PandaExpress)
 # If no such file exists, function returns 0.
 def openFile(res):
     res = res.replace(" ", "")                          # Remove spaces from input

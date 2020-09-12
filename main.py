@@ -1,8 +1,10 @@
-# Bon Hacketit 2020
 # Tracy Rocha
+# Bon Hacketit 2020
+# Narrow It Down
+# Main program
 
 import pandas as pd
-from functions import *
+from functions import openFile, getNames
 
 # Welcome message
 # User inputs restaurant
