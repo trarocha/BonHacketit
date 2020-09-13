@@ -31,3 +31,10 @@ def getNames(names):
         names[i] = re.sub('([A-Z])', r' \1', str)   # Add a space in front of each capital letter
         names[i] = names[i].lstrip()                # Remove leading space
     return names
+
+# Input: string
+# Output: none
+# Displays error message given by input string and quits program
+def quitProgram(msg):
+    print("Error: {0}. Ending program.".format(msg))
+    quit()
