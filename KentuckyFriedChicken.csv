@@ -1,0 +1,172 @@
+﻿Type,Food,Calories,TotalFat,SaturatedFat,TransFat,Cholesterol,Sodium,TotalCarbohydrates,DietaryFiber,Sugars,Protein
+Original Recipe Chicken,Original Recipe Chicken Breast,390,21,4,0,120,1190,11,2,0,39
+Original Recipe Chicken,Original Recipe Chicken Drumstik,130,8,1.5,0,55,430,4,1,0,12
+Original Recipe Chicken,Original Recipe Chicken Thigh,280,19,4.5,0,100,910,8,1,0,19
+Original Recipe Chicken,Original Recipe Chicken Whole Wing,130,8,2,0,55,380,3,0,0,10
+Extra Crispy Chicken,Extra Crispy Chicken Breast,530,35,6,0,105,1150,18,0,0,35
+Extra Crispy Chicken,Extra Crispy Chicken Drumstick,170,12,2,0,50,390,5,0,0,10
+Extra Crispy Chicken,Extra Crispy Chicken Thigh,330,23,4.5,0,100,700,9,0,0,22
+Extra Crispy Chicken,Extra Crispy Chicken Whole Wing,170,13,2,0,45,340,5,0,0,10
+Kentucky Grilled Chicken,Kentucky Grilled Chicken Breast,210,7,2,0,130,710,0,0,0,38
+Kentucky Grilled Chicken,Kentucky Grilled Chicken Drumstick,80,4,1,0,55,220,0,0,0,11
+Kentucky Grilled Chicken,Kentucky Grilled Chicken Thigh,150,9,3,0,90,420,0,0,0,17
+Kentucky Grilled Chicken,Kentucky Grilled Chicken Whole Wing,70,3,1,0,45,180,0,0,0,9
+Spicy Crispy Chicken,Spicy Crispy Chicken Breast,350,20,3.5,0,100,1100,11,1,0,30
+Spicy Crispy Chicken,Spicy Crispy Chicken Drumstick,130,8,1.5,0,40,420,5,1,0,9
+Spicy Crispy Chicken,Spicy Crispy Chicken Thigh,270,20,3.5,0,65,720,10,1,0,13
+Spicy Crispy Chicken,Spicy Crispy Chicken Whole Wing,120,8,1.5,0,35,350,5,0,0,7
+Extra Crispy Tenders,Extra Crispy Tender,260,14,2,0,50,610,15,0,0,19
+Extra Crispy Tenders,Nashville Hot Extra Crispy Tender,220,16,2.5,0,25,460,9,0,0,10
+Kentucky Fried Wings,Kentucky Fried Wings - Buffalo,100,7,1.5,0,20,310,3,0,0,5
+Kentucky Fried Wings,Kentucky Fried Wings - Honey BBQ,100,6,1,0,20,210,8,0,4,5
+Kentucky Fried Wings,Kentucky Fried Wings - Nashville Hot,130,11,2,0,20,230,4,0,0,5
+Kentucky Fried Wings,Kentucky Fried Wings - Unsauced,80,6,1,0,20,150,3,0,0,5
+Popcorn Nuggets,Popcorn Nuggets - Kids,290,19,2.5,0,30,870,19,1,0,13
+Popcorn Nuggets,Popcorn Nuggets - Large,620,39,5,0,65,1820,39,2,0,27
+Nashville Hot Chicken,Nashville Hot Chicken Extra Crispy Chicken Breast,770,60,10,0,105,1530,21,1,1,35
+Nashville Hot Chicken,Nashville Hot Extra Crispy Chicken Drumstick,250,21,3.5,0,50,530,6,1,0,11
+Nashville Hot Chicken,Nashville Hot Extra Crispy Chicken Thigh,500,40,7,0,100,970,11,1,1,22
+Nashville Hot Chicken,Nashville Hot Extra Crispy Chicken Whole Wing,290,25,4,0,45,520,6,1,1,10
+Nashville Hot Chicken,Nashville Hot Kentucky Grilled Chicken Breast,260,12,3,0,130,790,1,0,0,38
+Nashville Hot Chicken,Nashville Hot Kentucky Grilled Chicken Drumstivk,100,6,1.5,0,55,260,0,0,0,11
+Nashville Hot Chicken,Nashville Hot Kentucky Grilled Chicken Thigh,180,12,3.5,0,90,470,0,0,0,17
+Nashville Hot Chicken,Nashville Hot Kentucky Grilled Chicken Whole Wing,90,6,1.5,0,45,210,1,0,0,9
+Nashville Hot Chicken,Nashville Hot Spicy Crispy Chicken Breast,540,40,7,0,100,1390,14,2,1,31
+Nashville Hot Chicken,Nashville Hot Spicy Crispy Chicken Drumstick,190,14,2.5,0,40,510,6,1,0,9
+Nashville Hot Chicken,Nashville Hot Spicy Crispy Chickenn Thigh,390,32,6,0,65,900,12,2,1,13
+Nashville Hot Chicken,Nashville Hot Spicy Crispy Chicken Whole Wing,180,15,2.5,0,35,450,5,1,0,8
+Homestyle Sides,BBQ Baked Beans,190,1,0,0,0,650,34,7,15,11
+Homestyle Sides,Biscuit,180,8,4.5,0,0,520,22,1,1,4
+Homestyle Sides,Coleslaw,170,12,2,0,0,180,14,4,10,1
+Homestyle Sides,Corn on the Cob,70,0.5,0,0,0,0,17,2,3,2
+Homestyle Sides,Green Beans,25,0,0,0,0,300,5,3,1,1
+Homestyle Sides,KFC Cornbread Muffin,210,9,1.5,0,35,240,28,0,11,3
+Homestyle Sides,Macaroni & Cheese,140,6,1.5,0,0,590,17,1,2,5
+Homestyle Sides,Macaroni Salad,140,8,1,0,15,290,14,0,9,1
+Homestyle Sides,Mashed Potatoes,110,3.5,0.5,0,0,330,17,1,0,2
+Homestyle Sides,Mashed Potatoes With Gravy,130,4.5,1,0,0,520,20,1,0,3
+Homestyle Sides,Potato Salad,340,28,4.5,0,25,290,19,2,3,2
+Homestyle Sides,Potato Wedges,270,13,1.5,0,0,700,34,3,0,4
+Homestyle Sides,Secret Recipe Fries,320,15,2,0,0,1100,41,3,0,5
+Homestyle Sides,Sweet Kernel Corn,70,0.5,0,0,0,0,16,2,2,2
+Homestyle Sides,BBQ Baked Beans (Family),830,5,1,0,0,2810,148,31,63,47
+Homestyle Sides,Coleslaw (Family),640,46,7,0,15,670,54,14,37,4
+Homestyle Sides,Corn on the Cob (Family),280,2,0,0,0,15,67,8,11,9
+Homestyle Sides,Green Beans (Family),80,0,0,0,0,930,15,9,3,4
+Homestyle Sides,Macaroni & Cheese (Family),540,23,6,0,10,2220,66,5,8,18
+Homestyle Sides,Macaroni Salad (Family),480,28,3.5,0,55,990,50,0,30,3
+Homestyle Sides,Mashed Potatoes (Family),460,15,3,0,0,1410,72,6,0,9
+Homestyle Sides,Mashed Potatoes With Gravy (Family),590,21,5,0,0,2590,88,6,1,12
+Homestyle Sides,Potato Salad (Family),1200,98,16,0,80,1010,65,8,12,8
+Homestyle Sides,Potato Wedges (Family),1120,54,6,0,0,2930,143,14,0,16
+Homestyle Sides,Secret Recipe Fries (Family),840,40,5,0,0,2890,108,9,0,13
+Homestyle Sides,Sweet Kernel Corn (Family),280,2.5,0,0,0,10,67,7,8,10
+Sandwiches,Chicken Littles,300,15,2.5,0,30,620,27,1,3,14
+Sandwiches,Chicken Littles - Buffalo,310,17,2.5,0,30,790,27,1,3,14
+Sandwiches,Chicken Littles - Honey BBQ,320,15,2.5,0,30,680,31,1,7,14
+Sandwiches,Chicken Littles - Nashville Hot,340,19,3,0,30,580,27,1,3,14
+Sandwiches,Crispy Colonel's Sandwich,470,24,3.5,0,60,1170,39,0,4,24
+Sandwiches,Crispy Colonel's Sandwich - Buffalo,500,27,4,0,60,1500,39,0,4,24
+Sandwiches,Crispy Colonel's Sandwich - Honey BBQ,510,25,3.5,0,60,1290,48,0,12,24
+Sandwiches,Crispy Colonel's Sandwich - Nashville Hot,540,32,4.5,0,60,1290,40,0,5,24
+Sandwiches,Crispy Twister,630,34,7,0,70,1260,53,4,3,28
+Sandwiches,Honey BBQ Sandwich,350,3.5,0.5,0,55,1350,55,2,22,24
+Pot Pie and Bowls,Chicken Pot Pie,720,41,25,0,80,1750,60,7,5,26
+Pot Pie and Bowls,KFC Famous Bowl,740,35,6,0,45,2350,81,6,2,26
+Pot Pie and Bowls,KFC Famous Bowl - Snack Size,270,14,3.5,0,20,850,27,2,1,11
+Salads,Caesar Side Salad,300,28,6,0,20,330,6,1,3,5
+Salads,House Side Salad with Heinz Buttermilk Dressing,175,17,2,0,10,230,4,2,3,1
+Salads,House Side Salad with Hidden Valley The Original Ranch Fat Free Dressing,50,0,0,0,0,420,11,2,4,2
+Salads,House Side Salad with Marzetti Light Italian Dressing,30,0.5,0,0,0,520,5,2,3,1
+Desserts,Apple Turnover,230,10,2.5,0,0,140,32,0,12,2
+Desserts,Cafe Valley Chocolate Chip Cake,300,15,3,0,50,260,39,1,27,4
+Desserts,Cafe Valley Lemon Cake,220,10,2,0,30,170,30,0,20,2
+Desserts,Cafe Valley Mini Chocolate Chip Cake,300,12,2.5,0,40,190,49,1,35,3
+Desserts,Cafe Valley Mini Lemon Cake,300,13,2.5,0,50,230,43,0,31,3
+Desserts,Chocolate Chip Cookie,120,6,3,0,0,70,18,1,12,1
+Desserts,Oreo Cookes and Creme Pie,270,13,8,0,0,210,35,1,24,3
+Desserts,Reese's Peanut Butter Pie,300,17,9,0,0,270,33,1,22,5
+Beverage,Capri Sun 100% Juice Fruit Punch (Kids),80,0,0,0,0,25,21,0,20,0
+Beverage,Chocolate Milk 1% (Kids),150,2.5,1.5,0,10,170,26,0,23,7
+Beverage,Milk 1% (Kids),90,2,1.5,0,10,105,10,0,10,7
+Beverage,Milk 2% (Kids),170,6,4,0,25,180,17,0,16,12
+Beverage,7Up (12 oz),140,0,0,0,0,50,35,0,35,0
+Beverage,7Up (16 oz),190,0,0,0,0,70,46,0,46,0
+Beverage,7Up (20 oz),240,0,0,0,0,85,58,0,58,0
+Beverage,7Up (30 oz),350,0,0,0,0,125,87,0,87,0
+Beverage,Classic Lemonade (1/2 gal),880,0,0,0,0,780,234,0,228,0
+Beverage,Classic Lemonade (20 oz),140,0,0,0,0,130,39,0,38,0
+Beverage,Code Red Mountain Dew (12 oz),170,0,0,0,0,50,46,0,46,0
+Beverage,Code Red Mountain Dew (16 oz),230,0,0,0,0,65,62,0,62,0
+Beverage,Code Red Mountain Dew (20 oz),290,0,0,0,0,85,77,0,77,0
+Beverage,Code Red Mountain Dew (30 oz),430,0,0,0,0,125,116,0,115,0
+Beverage,Diet Dr Pepper (12 oz),0,0,0,0,0,70,0,0,0,0
+Beverage,Diet Dr Pepper (16 oz),0,0,0,0,0,95,0,0,0,0
+Beverage,Diet Dr Pepper (20 oz),0,0,0,0,0,120,0,0,0,0
+Beverage,Diet Dr Pepper (30 oz),0,0,0,0,0,180,0,0,0,0
+Beverage,Diet Mist Twst (12 oz),0,0,0,0,0,35,0,0,0,0
+Beverage,Diet Mist Twst (16 oz),0,0,0,0,0,50,0,0,0,0
+Beverage,Diet Mist Twst (20 oz),0,0,0,0,0,60,0,0,0,0
+Beverage,Diet Mist Twst (30 oz),5,0,0,0,0,95,0,0,0,0
+Beverage,Diet Mountain Dew (12 oz),0,0,0,0,0,55,1,0,0,0
+Beverage,Diet Mountain Dew (16 oz),5,0,0,0,0,75,1,0,0,0
+Beverage,Diet Mountain Dew (20 oz),10,0,0,0,0,90,1,0,1,0
+Beverage,Diet Mountain Dew (30 oz),10,0,0,0,0,140,1,0,1,0
+Beverage,Diet Pepsi (12 oz),0,0,0,0,0,55,0,0,0,0
+Beverage,Diet Pepsi (16 oz),0,0,0,0,0,75,0,0,0,0
+Beverage,Diet Pepsi (20 oz),0,0,0,0,0,95,0,0,0,0
+Beverage,Diet Pepsi (30 oz),0,0,0,0,0,140,0,0,0,0
+Beverage,Diet Pepsi Wild Cherry (12 oz),0,0,0,0,0,35,0,0,0,0
+Beverage,Diet Pepsi Wild Cherry (16 oz),0,0,0,0,0,50,0,0,0,0
+Beverage,Diet Pepsi Wild Cherry (20 oz),0,0,0,0,0,60,0,0,0,0
+Beverage,Diet Pepsi Wild Cherry (30 oz),0,0,0,0,0,95,0,0,0,0
+Beverage,Dr Pepper (12 oz),140,0,0,0,0,45,39,0,38,0
+Beverage,Dr Pepper (16 oz),190,0,0,0,0,60,52,0,51,0
+Beverage,Dr Pepper (20 oz),240,0,0,0,0,75,65,0,64,0
+Beverage,Dr Pepper (30 oz),360,0,0,0,0,110,98,0,96,0
+Beverage,Lipton Brisk Lemon Tea (12 oz),80,0,0,0,0,40,22,0,22,0
+Beverage,Lipton Brisk Lemon Tea (16 oz),110,0,0,0,0,55,29,0,29,0
+Beverage,Lipton Brisk Lemon Tea (20 oz),140,0,0,0,0,70,36,0,36,0
+Beverage,Lipton Brisk Lemon Tea (30 oz),210,0,0,0,0,105,55,0,54,0
+Beverage,Lipton Brisk No Calorie Peach Iced Green Tea (12 oz),0,0,0,0,0,105,0,0,0,0
+Beverage,Lipton Brisk No Calorie Peach Iced Green Tea (16 oz),0,0,0,0,0,140,0,0,0,0
+Beverage,Lipton Brisk No Calorie Peach Iced Green Tea (20 oz),5,0,0,0,0,180,0,0,0,0
+Beverage,Lipton Brisk No Calorie Peach Iced Green Tea (30 oz),10,0,0,0,0,270,0,0,0,0
+Beverage,Lipton Brisk Rasperry Tea (12 oz),80,0,0,0,0,45,20,0,20,0
+Beverage,Lipton Brisk Raspberry Tea (16 oz),100,0,0,0,0,55,26,0,26,0
+Beverage,Lipton Brisk Raspberry Tea (20 oz),130,0,0,0,0,70,33,0,33,0
+Beverage,Lipton Brisk Raspberry Tea (30 oz),190,0,0,0,0,110,49,0,49,0
+Beverage,Lipton Brisk Sweet Iced Tea (12 oz),80,0,0,0,0,45,22,0,21,0
+Beverage,Lipton Brisk Sweet Iced Tea (16 oz),110,0,0,0,0,65,29,0,29,0
+Beverage,Lipton Brisk Sweet Iced Tea (20 oz),130,0,0,0,0,80,36,0,36,0
+Beverage,Lipton Brisk Sweet Iced Tea (30 oz),200,0,0,0,0,120,54,0,54,0
+Beverage,Lipton Brisk Unsweetened No Lemon Iced Tea (12 oz),0,0,0,0,0,45,0,0,0,0
+Beverage,Lipton Brisk Unsweetened No Lemon Iced Tea (16 oz),0,0,0,0,0,60,0,0,0,0
+Beverage,Lipton Brisk Unsweetened No Lemon Iced Tea (20 oz),0,0,0,0,0,75,0,0,0,0
+Beverage,Lipton Brisk Unsweetened No Lemon Iced Tea (30 oz),0,0,0,0,0,115,0,0,0,0
+Beverage,Manzanita Sol (12 oz),160,0,0,0,0,35,42,0,42,0
+Beverage,Manzanita Sol (16 oz),210,0,0,0,0,45,57,0,57,0
+Beverage,Manzanita Sol (20 oz),260,0,0,0,0,55,71,0,71,0
+Beverage,Manzanita Sol (30 oz),400,0,0,0,0,80,106,0,106,0
+Beverage,Miranda Strawberry (12 oz),160,0,0,0,0,70,44,0,44,0
+Beverage,Miranda Strawberry (16 oz),220,0,0,0,0,95,58,0,58,0
+Beverage,Miranda Strawberry (20 oz),270,0,0,0,0,120,73,0,73,0
+Beverage,Miranda Strawberry (30 oz),410,0,0,0,0,180,109,0,109,0
+Beverage,Mist Twst (12 oz),150,0,0,0,0,35,41,0,41,0
+Beverage,Mist Twst (16 oz),200,0,0,0,0,45,54,0,54,0
+Beverage,Mist Twst (20 oz),260,0,0,0,0,55,68,0,68,0
+Beverage,Mist Twst (30 oz),380,0,0,0,0,80,101,0,101,0
+Beverage,MNT DEW Sweet Lightning (20 oz),120,0,0,0,0,190,32,0,25,0
+Beverage,Mountain Dew (12 oz),160,0,0,0,0,50,44,0,44,0
+Beverage,Mountain Dew (16 oz),220,0,0,0,0,70,59,0,58,0
+Beverage,Mountain Dew (20 oz),270,0,0,0,0,85,73,0,73,0
+Beverage,Mountain Dew (30 oz),410,0,0,0,0,125,110,0,109,0
+Beverage,Mug Root Beer (12 oz),140,0,0,0,0,45,39,0,39,0
+Beverage,Mug Root Beer (16 oz),190,0,0,0,0,60,52,0,52,0
+Beverage,Mug Root Beer (20 oz),240,0,0,0,0,75,65,0,65,0
+Beverage,Mug Root Beer (30 oz),360,0,0,0,0,110,98,0,98,0
+Beverage,Pepsi Zero Sugar (12 oz),0,0,0,0,0,35,0,0,0,0
+Beverage,Pepsi Zero Sugar (16 oz),0,0,0,0,0,50,0,0,0,0
+Beverage,Pepsi Zero Sugar (20 oz),0,0,0,0,0,60,0,0,0,0
+Beverage,Pepsi Zero Sugar (30 oz),0,0,0,0,0,95,1,0,0,0
+Beverage,Pepsi (12 oz),150,0,0,0,0,30,41,0,41,0
