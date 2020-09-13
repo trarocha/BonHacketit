@@ -16,6 +16,7 @@ Output results <br>
 Panda Express: https://www.pandaexpress.com/nutritioninformation <br>
 Taco Bell: https://www.tacobell.com/nutrition/info <br>
 McDonalds: https://www.kaggle.com/mcdonalds/nutrition-facts <br>
+KFC: https://www.kfc.com/nutrition/full-nutrition-guide
 
 # Requirements for CSV Files:
 Names should be in camelcase. Ex: PandaExpress.csv, TacoBell.csv <br>
