@@ -4,7 +4,7 @@
 # Main program
 
 import pandas as pd
-from functions import openFile, getNames
+from functions import openFile, getNames, quitProgram
 
 # Welcome message
 # User inputs restaurant
@@ -62,8 +62,11 @@ while (calValid == False):
     if (cal == "Yes"):
         calMax = input("\nEnter a value between {0} and {1}: ".format(df.Calories.min(), df.Calories.max()))
         if calMax.isdigit():
-            df = df[df.Calories <= int(calMax)]
-            calValid = True
+            try:
+                df = df[df.Calories <= int(calMax)]
+                calValid = True
+            except TypeError:
+                quitProgram("Non-integer calorie value")
         else:
             calMax = input("Error: Enter a value between {0} and {1}: ".format(df.Calories.min(), df.Calories.max()))
     elif (cal == "No"):
@@ -83,7 +86,6 @@ crit1 = crit1.strip()
 crit1Valid = False
 while (crit1Valid == False):
     if (crit1 in names[nameStart:nameEnd]):
-
         crit1Valid = True
     else:
         crit1 = input("Error: Please select a valid filter: ")
@@ -106,7 +108,10 @@ while (sort1Valid == False):
 # Print the resulting dataframe
 crit1 = crit1.replace(" ", "")
 df_sub1 = df[crit1]
-q_df = df_sub1.quantile([.25, .75])
+try: 
+    q_df = df_sub1.quantile([.25, .75])
+except TypeError:
+    quitProgram("Non-integer value in {0}".format(crit1))
 if (sort1 == "High"):
     df = df.query("{0} >= {1}".format(crit1, q_df[0.75]))
     df = df.sort_values(by=crit1, ascending=False)
@@ -150,7 +155,10 @@ while (sort2Valid == False):
 # Print the resulting dataframe
 crit2 = crit2.replace(" ", "")
 df_sub2 = df[crit2]
-q_df = df_sub2.quantile([.25, .75])
+try:
+    q_df = df_sub2.quantile([.25, .75])
+except TypeError:
+    quitProgram("Non-integer value in {0}".format(crit2))
 if (sort2 == "High"):
     df = df.query("{0} >= {1}".format(crit2, q_df[0.75]))
     df = df.sort_values(by=crit2, ascending=False)
